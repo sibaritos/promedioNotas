@@ -17,7 +17,7 @@ def graficar_notas_y_derivada(notas):
     derivada = spline.derivative()(tiempo_suave)
 
     fig, ax1 = plt.subplots()
-    ax1.plot(tiempo_suave, notas_suave, color='blue', label='Notas')
+    ax1.plot(tiempo_suave, notas_suave, color='green', label='Notas')
     ax1.set_xlabel('Número de prueba')
     ax1.set_ylabel('Nota', color='blue')
     ax1.tick_params(axis='y', labelcolor='blue')
